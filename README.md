@@ -11,7 +11,8 @@ git clone https://github.com/elvino/devdatum.git
 3 - Executar no Docker
 
 3.1 - docker build -f "../DevDatum/Dockerfile" --force-rm -t devdatum:latest --target base  "." (nome da imagem pode ser modificada)
-3.2 - docker run --rm -d  -p 80:80/tcp devdatum:latest (porta pode ser alterada)
+
+5.2 - docker run --rm -d  -p 80:80/tcp devdatum:latest (porta pode ser alterada)
 
 4 - Executar no IIS
 
